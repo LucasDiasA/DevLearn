@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <section class="container-img">
+        <img src="imagens/5556661.jpg">
+    </section>
+
+    <form class="form" >
+        <div class="container">
+            <!-- login -->
+            <label  class="text">Login</label>
+            <section class="hidden-eyes">
+            <input class="login" id="email" type="text" placeholder="email" autocomplete="off">
+            </section>
+            <!-- senha -->
+            <label  class="text">Senha</label>
+            <section class="hidden-eyes">
+                <input class="login" type="password" placeholder="senha" id="password" autocomplete="off">
+                <img src="imagens/eye-slash.svg" alt="" class="eye" id="eye">    
+            </section>
+
+            <!-- enviar e sign-in -->
+            <div class="container-remember">
+            <input  class="enviar" type="submit">
+            
+            <p  class="remember">Esquceu sua senha?</p>
+            <a href="#" class="click">Esqueci minha senha</a><br>
+            <p  class="remember">Não tem conta?</p>
+            <a href="" class="click">criar conta</a>
+        </div>
+        </div>
+    </form>
+
+</body>
+</html>
