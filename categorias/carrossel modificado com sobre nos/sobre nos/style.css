@@ -1,0 +1,957 @@
+body{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #2C153E;
+    display: flex;
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;   
+}
+
+.linear{
+/* Rectangle 25 */
+
+position: relative;
+width: 100%vw;
+height: 930px;
+
+/* Rectangle 25 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0px;
+bottom: 0%;
+
+/*EFEITO LINEAR VINDO EM HORIZONTAL*/
+background: linear-gradient(180deg, #2C153E 0%, #7438A4 52%, #2C153E 100%);
+}
+
+
+.titulo1{
+
+    /* Sobre nós */
+
+position: absolute;
+width: 372px;
+height: 55px;
+
+font-family: 'Orbitron';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 90px;
+display: flex;
+align-items: center;
+
+background: linear-gradient(90deg, rgba(61, 99, 157, 0.7) 0%, rgba(61, 99, 157, 0.7) 0.01%, #88A3EA 18%, #88EABB 50%, #88A3EA 82.5%, rgba(61, 99, 157, 0.7) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+/* ALINHAMENTO */
+text-align: center;
+margin: 0px;
+left: 30%;
+top: 150px;
+transform: translate(-50%, -50%);
+}
+
+.texto1{
+    display:flex;
+    margin: 0;
+    text-align: left;
+    position: absolute;
+    color: white;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+    width: 650px;
+    background: none;
+
+    
+
+    left: 40%;
+    top: 27%;
+    padding: 1px;
+
+    font-size: 150%;
+}
+
+.photo1{
+    display: flex;
+    position: absolute;
+    background: none;
+    box-shadow: none;
+    
+
+    left: 22%;
+    top: 30%;
+    padding: 1px;
+    transform: translate(-20%, -25%);
+}
+
+.titulo2{
+    display: flex;
+    position: absolute;
+    background: none;
+    margin: 0;
+    left: 50%;
+    top: 125%;
+    transform: translate(-50%);
+    /* Nossos professores */
+    
+    /*
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+
+    font-style: linear-gradient(90deg, #FFFFFF 0%, #999999 100%); */
+    /* Nossos professores */
+
+    padding: 0;
+
+    font-weight: 40px;
+    font-size: 60px;
+    
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(90deg, #FFFFFF 0%, #999999 100%);
+    -webkit-background-clip: text;
+    
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    width: 100%vh;
+    max-width: 50%;
+
+    padding-top: 10%;
+}
+
+.tamanho{
+    max-width: 50%;
+}
+
+.professores{
+    position: absolute;
+    margin-top: 70%;
+    justify-content: center;
+    display: flex;
+
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.professores2{
+    position: absolute;
+    margin-top: 100%;
+    justify-content: center;
+    display: flex;
+    size: 40%;
+
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.prof1{
+    size: 40%;
+}
+
+.titulo3{
+    display: flex;
+    position: absolute;
+    background: none;
+    margin: 0;
+    left: 50%;
+    top: 125%;
+    transform: translate(-50%);
+
+    padding: 0;
+
+    font-weight: 40px;
+    font-size: 60px;
+    
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(90deg, #FFFFFF 0%, #999999 100%);
+    -webkit-background-clip: text;
+    
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    width: 100%vh;
+    max-width: 50%;
+
+    padding-top: 10%;
+
+}
+
+.professores{
+    position: absolute;
+    margin-top: 75%;
+    justify-content: center;
+    display: flex;
+
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    box-shadow: none;
+    background-color: transparent;
+
+    width: 35%;
+    height: 35%;
+
+    gap: 60%;
+}
+.NamePROF{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 130%;
+    width: 49%;
+
+    margin-top: 75%;
+    left: 43%;
+    gap: 55%;
+}
+
+
+.professores2{
+    position: absolute;
+    margin-top: 109%;
+    justify-content: center;
+    display: flex;
+    size: 40%;
+
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: none;
+    background-color: transparent;
+
+    width: 35%;
+    height: 35%;
+
+    gap: 60%;
+}
+.NamePROF2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 130%;
+    width: 45%;
+
+    margin-top: 109%;
+    left: 43%;
+    gap: 60%;
+}
+
+.titulo3{
+    margin-top: 100%;
+}
+/* Celulares */
+@media screen and (max-width: 450px){
+    body{
+        width: 10%;
+    }
+
+    .linear{
+        /* Rectangle 25 */
+        
+        position: relative;
+        width: 100%vw;
+        height: 930px;
+        
+        /* Rectangle 25 */
+        
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0px;
+        bottom: 0%;
+        
+        /*EFEITO LINEAR VINDO EM HORIZONTAL*/
+        background: linear-gradient(180deg, #2C153E 0%, #7438A4 52%, #2C153E 100%);
+        }
+        
+    .photo1{
+        width: 70%;
+        height: 30%;
+        display: flex;
+        position: absolute;
+        background: none;
+        box-shadow: none;
+        
+    
+        left: 8%;
+        top: 30%;
+        padding: 1px;
+        transform: translate(-20%, -25%);
+    }
+
+    .titulo1{
+
+        /* Sobre nós */
+    
+    position: absolute;
+    width: 372px;
+    height: 55px;
+    
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    
+    background: linear-gradient(90deg, rgba(61, 99, 157, 0.7) 0%, rgba(61, 99, 157, 0.7) 0.01%, #88A3EA 18%, #88EABB 50%, #88A3EA 82.5%, rgba(61, 99, 157, 0.7) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    /* ALINHAMENTO */
+    text-align: center;
+    margin: 0px;
+    left: 50%;
+    top: 150px;
+    transform: translate(-50%, -50%);
+    }
+
+    .texto1{
+        display:flex;
+        margin: 0;
+        text-align: left;
+        position: absolute;
+        color: white;
+        border: none;
+        text-shadow: none;
+        box-shadow: none;
+        width: 235px;
+        background: none;
+    
+        
+    
+        left: 40%;
+        top: 27%;
+        padding: 1px;
+    
+        font-size: 80%;
+    }
+
+    .titulo2{
+        /* nossos professores */
+        display: flex;
+        position: absolute;
+        background: none;
+        margin: 0;
+        left: 50%;
+        top: 125%;
+        transform: translate(-50%);
+        padding: 0;
+    
+        font-weight: 20px;
+        font-size: 27px;
+        
+        display: flex;
+        align-items: center;
+    
+        background: linear-gradient(90deg, #FFFFFF 0%, #999999 100%);
+        -webkit-background-clip: text;
+        
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+        width: 100%vh;
+        max-width: 50%;
+    
+        padding-top: 10%;
+
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1024px){
+    body{
+        width: 100%;
+    }
+
+    .linear{
+        /* Rectangle 25 */
+        
+        position: relative;
+        width: 107%;
+        height: 930px;
+        
+        /* Rectangle 25 */
+        
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0px;
+        bottom: 0%;
+        
+        /*EFEITO LINEAR VINDO EM HORIZONTAL*/
+        background: linear-gradient(180deg, #2C153E 0%, #7438A4 52%, #2C153E 100%);
+        }
+        
+    .photo1{
+        width: 80%;
+        height: 40%;
+        display: flex;
+        position: absolute;
+        background: none;
+        box-shadow: none;
+        
+    
+        left: 8%;
+        top: 30%;
+        padding: 1px;
+        transform: translate(-20%, -25%);
+    }
+
+    .titulo1{
+
+        /* Sobre nós */
+    
+    position: absolute;
+    width: 372px;
+    height: 55px;
+    
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    
+    background: linear-gradient(90deg, rgba(61, 99, 157, 0.7) 0%, rgba(61, 99, 157, 0.7) 0.01%, #88A3EA 18%, #88EABB 50%, #88A3EA 82.5%, rgba(61, 99, 157, 0.7) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    /* ALINHAMENTO */
+    text-align: center;
+    margin: 0px;
+    left: 50%;
+    top: 150px;
+    transform: translate(-50%, -50%);
+    }
+
+    .texto1{
+        display:flex;
+        margin: 0;
+        text-align: left;
+        position: absolute;
+        color: white;
+        border: none;
+        text-shadow: none;
+        box-shadow: none;
+        width: 320px;
+        background: none;
+    
+        
+    
+        left: 50%;
+        top: 27%;
+        padding: 1px;
+    
+        font-size: 97%;
+    }
+
+    .titulo2{
+        /* nossos professores */
+        display: flex;
+        position: absolute;
+        background: none;
+        margin: 0;
+        left: 50%;
+        top: 125%;
+        transform: translate(-50%);
+        padding: 0;
+    
+        font-weight: 20px;
+        font-size: 27px;
+        
+        display: flex;
+        align-items: center;
+    
+        background: linear-gradient(90deg, #FFFFFF 0%, #999999 100%);
+        -webkit-background-clip: text;
+        
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+        width: 100%vh;
+        max-width: 50%;
+    
+        padding-top: 10%;
+
+    }
+
+    .professores{
+        position: absolute;
+        margin-top: 130%;
+        justify-content: center;
+        display: flex;
+    
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        box-shadow: none;
+        background-color: transparent;
+
+        width: 15%;
+        height: 15%;
+
+        gap: 130%;
+    }
+    
+    .NamePROF{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 65%;
+        width: 49%;
+
+        margin-top: 130%;
+        left: 43%;
+        gap: 55%;
+    }
+    
+
+
+    .professores2{
+        position: absolute;
+        margin-top: 155%;
+        justify-content: center;
+        display: flex;
+        size: 40%;
+    
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: none;
+        background-color: transparent;
+
+        width: 15%;
+        height: 15%;
+
+        gap: 130%;
+    }
+    .NamePROF2{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 65%;
+        width: 45%;
+
+        margin-top: 155%;
+        left: 43%;
+        gap: 60%;
+    }
+}
+
+@media screen and (min-width: 821px) {
+	body{
+		overflow-x: hidden;
+	}
+	
+	/*fonte usada nas caixas do main*/
+	.odor-mean-chey-regular {
+		font-family: "Odor Mean Chey", serif;
+		font-weight: 400;
+		font-style: normal;
+	  }
+	
+	
+	
+	
+	
+/* responsividade do header */
+/*container do header*/
+.container1{
+    display:flex; /*flexbox para posicionar os itens dentro do container*/
+    align-items: center; /*alinhamento vertical dos itens do header*/
+	justify-content: space-between; /*alinhamento horizontal dos elementos do header*/
+	box-sizing: border-box; /*delimitando o tamanho do header como adaptável ao tamanho da tela*/
+	padding: 2vw; /*espassando os itens dentro header com tamanho vw para manter a responsividade*/
+	width: 100vw;
+	height: 4vw; /*determinando a altura do header*/
+    background-color: #220E32; /*cor de fundo do header*/
+    position: absolute;
+    top: 0;
+
+}
+.container-header{
+	width: 70vw;
+	display: flex;
+	flex-direction: row;
+	gap: 20vw;
+	
+}
+
+/*navegação de categorias do header*/
+.header-nav{
+	width: 35vw;
+	display: flex; /*utilizado para distribuir os itens da navegação com flexbox*/
+	gap: 2vw; /*separar os itens dentro da navegação por categorias*/
+	justify-content: center; /*alinhamento horizontal dos itens dentro da navegação por categorias*/
+	align-items: center; /*alinhamento vertical dos itens dentro da navegação por categorias*/
+	white-space: nowrap;
+}
+
+/*itens da navegação de categorias*/
+.item-nav{
+	text-decoration: none; /*utilizado para tirar o sublinhado que vem por padrão da tag <a> do index*/
+	color: white; /*cor da fonte usada nos itens da barra de navegação*/
+	font-size: 0.8em; /*tamanho da fonte dos itens usados na barra de navegação*/
+	font-family: "Open Sans", sans-serif; /*fonte usada nos itens da barra de navegação*/
+	outline: none;
+	transition: .4s;
+}
+.item-nav:hover{
+	font-size: 0.9em;
+	color: #ffffff;
+}
+
+/*estilização da logo dentro do header*/
+.container_img{
+	max-width: 15%; /*tamanho da imagem dentro do header*/
+}
+
+/*container da imagem do usuário*/
+.user-avatar{
+	width: 15vw;
+	display: flex; /*flex para alinhar os itens em linha e no centro*/
+	flex-direction: row; /*alinhamento dos itens em linha*/
+	align-items: center; /*alinhamento dos itens no centro*/
+	gap: 1vw; /*espaço entre os itens do usuário*/
+}
+
+/*estilização da foto da user*/
+.user-avatar img{
+	max-width: 3.3vw; /*tamanho da foto do user*/
+}
+
+/*estilização de como aparecerá o nick do user*/
+.user-name{
+	font-size: 10pt; /*tamanho da fonte do nick do user*/
+	font-family: 'Open Sans', sans-serif; /*fonte usada pro nick do user*/
+	color: rgb(255, 255, 255); /*cor da fonte usada para o nick do user*/
+	}
+
+
+
+
+a{
+	text-decoration: none;
+}
+
+.close{
+	display: none;
+}
+.loupe{
+	display: none;
+	overflow: hidden;
+}
+.overlay-menu{
+	display: none;
+}
+.close-menu{
+	display: none;
+}
+.menu{
+	display: none;
+}
+.overlay-menu-header{
+	display: none;
+}
+}
+
+
+
+
+/* resposividade para tablets e telas médias */
+
+
+@media (min-width:590px) and (max-width: 820px) {	
+
+	/*fonte usada nas caixas do main*/
+	.odor-mean-chey-regular {
+		font-family: "Odor Mean Chey", serif;
+		font-weight: 400;
+		font-style: normal;
+	  }
+	
+	body{
+		margin: 0;
+		background-color: #2C153E;/* cor de fundo do site inteiro*/
+		width: 80vw;
+		height: 90vh; /*determinando o tamanho total do html para 100% do tamanho da pagina*/
+	}
+	
+	/*container do header*/
+	.container1{
+		display:flex; /*flexbox para posicionar os itens dentro do container*/
+		align-items: center; /*alinhamento vertical dos itens do header*/
+		justify-content: space-around; /*alinhamento horizontal dos elementos do header*/
+		box-sizing: border-box; /*delimitando o tamanho do header como adaptável ao tamanho da tela*/
+		padding: 2vw; /*espassando os itens dentro header com tamanho vw para manter a responsividade*/
+		height: 6vw; /*determinando a altura do header*/
+		width: 100vw;
+		background-color: #220E32; /*cor de fundo do header*/
+		gap: 1vw; /*espaço utilizado para manter distancia entre os itens do header*/
+        position: absolute;
+        top: 0;
+	}
+	.container-header{
+		display: flex;
+		width: 100%;
+		gap: 3vw;
+	}
+	/*navegação de categorias do header*/
+	.header-nav{
+		display: flex; /*utilizado para distribuir os itens da navegação com flexbox*/
+		gap: 2vw; /*separar os itens dentro da navegação por categorias*/
+		justify-content: center; /*alinhamento horizontal dos itens dentro da navegação por categorias*/
+		align-items: center; /*alinhamento vertical dos itens dentro da navegação por categorias*/
+		width: 62vw;
+	}
+	
+	/*itens da navegação de categorias*/
+	.item-nav{
+		text-decoration: none; /*utilizado para tirar o sublinhado que vem por padrão da tag <a> do index*/
+		color: white; /*cor da fonte usada nos itens da barra de navegação*/
+		font-size: 0.6em; /*tamanho da fonte dos itens usados na barra de navegação*/
+		font-family: "Open Sans", sans-serif; /*fonte usada nos itens da barra de navegação*/
+		white-space: nowrap;
+	}
+	
+	/*estilização da logo dentro do header*/
+	.container_img{
+		max-width: 19%; /*tamanho da imagem dentro do header*/
+	}
+	
+	/*container da imagem do usuário*/
+	.user-avatar{
+		display: flex; /*flex para alinhar os itens em linha e no centro*/
+		flex-direction: row; /*alinhamento dos itens em linha*/
+		align-items: center; /*alinhamento dos itens no centro*/
+		gap: 1vw; /*espaço entre os itens do usuário*/
+		width: 12vw;
+	}
+	
+	/*estilização da foto da user*/
+	.user-avatar img{
+		order: -1;
+		max-width: 3vw; /*tamanho da foto do user*/
+	
+	}
+	
+	/*estilização de como aparecerá o nick do user*/
+	.user-name{
+		order: -1;
+		font-size: 0.6em; /*tamanho da fonte do nick do user*/
+		font-family: 'Open Sans', sans-serif; /*fonte usada pro nick do user*/
+		color: rgb(255, 255, 255); /*cor da fonte usada para o nick do user*/
+	}
+	.close-menu{
+		display: none;
+	}
+	.menu > img{
+		display: none;
+	}
+	
+	a{
+		text-decoration: none;
+	}
+}
+
+
+/* responsividade para dispositivos móveis */
+@media screen and (max-width: 589px) {
+
+
+
+	.open-sans {
+	  font-family: "Open Sans", sans-serif;
+	  font-optical-sizing: auto;
+	  font-weight: 100;
+	  font-style: normal;
+	  font-variation-settings:
+		"wdth" 100;
+	}
+	
+	.odor-mean-chey-regular {
+		font-family: "Odor Mean Chey", serif;
+		font-weight: 400;
+		font-style: normal;
+	  }
+	
+	body{
+		background-color: #2C153E;
+		margin: 0;
+	}
+	
+	/* header */
+	
+	.container1{
+		width: 100vw;
+		height: 7vh;
+		padding-left: 2vw;
+		padding-right: 2vw;
+		margin-bottom: 2vh;
+		display:flex;
+		align-items: center;
+		box-sizing: border-box;
+		background-color: #220E32;
+        position: absolute;
+        top: 0;
+		
+	
+	}
+	.container img{
+		justify-content: center;
+		max-width: 50%;
+	}
+	.header-nav{
+		display: flex;
+		flex-direction: column;
+		gap: 1vh;
+		justify-content: center;
+		align-items: end;
+		width: 100vw;
+		height: 40vh;
+		padding: 2vw;
+		position: relative;
+		top: 22vh;
+	}
+	.item-nav{
+		text-decoration: none;
+		color: white;
+		font-size: 8pt;
+		font-family: "Open Sans", sans-serif;
+		width: 70%;
+		height: 5vh	;
+		overflow: hidden;
+	
+	}
+	
+	.user-avatar{
+		padding-left: 2vw;
+		position: absolute;
+		top: 3vh;
+		right: 15vw;
+		order: -1;
+		height: 20vh;
+		width: 20vw;
+	}
+	
+	.user-avatar span{
+		color: white;
+		padding-top: 1vh;
+		width: 30vw;
+		height: 2vh;
+		font-family: "Open Sans", sans-serif;
+		font-size: 10pt;
+		text-align:start;
+	}
+	.user-avatar img{
+		padding-top: 1vh;
+		max-width:80%;
+		max-height: 100%;
+	}
+	
+	.container-header{
+		display: flex;
+		justify-content: end;
+		background: #492663;
+		border-radius: 10px;
+		height: 100vh;
+		width:0;
+		transition: .5s;
+		position: fixed;
+		overflow: hidden;
+		top: 0;
+		right: 0;
+		z-index: 999999;
+	}
+	.menu{
+		display: flex;
+		justify-content: end;
+		width: 100vw;
+		height: 7vh;
+		
+	}
+	.menu img{
+		max-width: 100%;
+		max-height: 100%;
+	}
+	
+	.close-menu{
+		padding-top: 3vh;
+		position: relative;
+		left: 5vw;
+		order: -1;
+		height: 5vh;
+		width: 30vw;
+	}
+	
+	.overlay-menu-header{
+		background: #0000006a;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 8888;
+		display: none;
+	}
+	
+	.container-header.open-header-menu{
+		width: 70%;
+	}
+	.container-header.open-header-menu ~.overlay-menu-header{
+		display:block;
+	}
+	/* main */
+	a{
+		text-decoration: none;
+	}
+	
+	.overlay-menu{
+		background: #0000006a;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 8888;
+		display: none;
+	}
+	.container-aside.abrir-menu ~ .overlay-menu{
+		display: block;
+	}
+	}

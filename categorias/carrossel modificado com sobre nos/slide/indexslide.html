@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleslide.css">
+    <title>Slider com CSS, HTML, JS</title>
+</head>
+<body>
+    <header class="container1">
+        
+        <img src="imagens/Group 18.png" class="container_img" href="index.html">
+
+        <div class="menu" id="menu">
+            <img src="imagens/icon-menu.svg" alt="">
+        </div>
+        <section class="container-header" id="header">
+            <div class="close-menu" id="closed-menu" >
+            <img src="imagens/close.svg" alt="">
+            </div>
+            <nav class="header-nav">
+                <a href="categorias/carrossel modificado com sobre nos/indexmain.html#sobre" class="item-nav">Quem somos</a>
+                <a href="categorias/carrossel modificado com sobre nos/indexmain.html#professor" class="item-nav" >Nossos professores</a>
+                <a href="#" class="item-nav">Parceiros</a>
+                <a href="categorias/carrossel modificado com sobre nos/indexmain.html#manual" class="item-nav">Manual de usúario</a>
+                <a href="#" class="item-nav">Comentários</a>
+            </nav>
+<section class="user-avatar">  
+                <img src="imagens/avatar-svgrepo-com.svg">
+                <span class="user-name">Marilia Mendonça</span>
+              
+            </section>
+        </section>
+            
+        <div class="overlay-menu-header"></div>
+    </header> 
+    
+    <div class="slider">
+ 
+        <div class="slides">
+            <!-- RADIO BUTTONS -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- FIM RADIO BUTTONS -->
+
+            <!-- SLIDE IMAGES -->
+            <div class="slide first" >
+                <img src="/images/barco.png" alt="image 1" />
+            </div>
+
+            <div class="slide" >
+                <img src="https://img.freepik.com/vetores-gratis/ilustracao-do-conceito-de-tutorial-do-youtube_114360-2807.jpg" alt="image 2" />
+            </div>
+
+            <div class="slide" >
+                <img src="https://i.ytimg.com/vi/5Br5TbIIFOI/maxresdefault.jpg" alt="image 3" />
+            </div>
+
+            <div class="slide" >
+                <img src="https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2019/03/Tutorial-Dreamweaver-Guia-Definitivo.webp" alt="image 4" />
+            </div>
+            <!-- FIM SLIDE IMAGES -->
+
+            <!-- NAVIGATION AUTO -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
